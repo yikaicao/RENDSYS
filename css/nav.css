@@ -1,0 +1,26 @@
+.header {
+	background-color: #FFFFFF;
+	width: 100%;
+	border-bottom: solid 1px #999999;
+}
+.header_img {
+	width: 100%;
+	max-width: 800px;
+	min-width: 400px;
+}
+.banner {
+	background-color: #CD1F36; 
+	width: 100%;
+	padding: 1%;
+}
+.banner img{
+	width: 100%;
+	max-width: 300px;
+	border: none;
+}
+.navbar-container {
+	padding: 0 2%;
+}
+.navbar-nav {
+	min-width: 500px;
+}

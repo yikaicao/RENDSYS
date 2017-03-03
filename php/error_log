@@ -1,0 +1,241 @@
+[01-Nov-2016 01:13:06 UTC] PHP Notice:  Undefined index: dCollection in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 21
+[01-Nov-2016 01:13:06 UTC] PHP Notice:  Undefined index: dataType in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 21
+[01-Nov-2016 01:13:06 UTC] PHP Notice:  Undefined index: alarmType in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 21
+[01-Nov-2016 01:13:06 UTC] PHP Notice:  Undefined index: xVal in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 21
+[01-Nov-2016 01:13:06 UTC] PHP Notice:  Undefined index: phoneNumber in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 21
+[01-Nov-2016 01:13:06 UTC] PHP Notice:  Undefined index: carrierName in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 21
+[01-Nov-2016 01:13:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'collection' cannot be null' in /home/yikaicao/public_html/cs436/php/alarmModel.php:85
+Stack trace:
+#0 /home/yikaicao/public_html/cs436/php/alarmModel.php(85): PDOStatement->execute()
+#1 /home/yikaicao/public_html/cs436/php/alarmReciever.php(21): AlarmModel->addAlarm('Sean', 'Gellenbeck', 'Sean', 'Gellenbeck', NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home/yikaicao/public_html/cs436/php/alarmModel.php on line 85
+[17-Nov-2016 21:21:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/yikaicao/public_html/cs436/php/loginModel.php:32
+Stack trace:
+#0 /home/yikaicao/public_html/cs436/php/loginModel.php(32): PDOStatement->fetch(1)
+#1 /home/yikaicao/public_html/cs436/php/loginReceiver.php(47): LoginModel->runSQLCommand('CREATE TABLE lo...')
+#2 {main}
+  thrown in /home/yikaicao/public_html/cs436/php/loginModel.php on line 32
+[17-Nov-2016 21:41:53 UTC] PHP Fatal error:  Call to undefined function password_hash() in /home/yikaicao/public_html/cs436/php/loginModel.php on line 49
+[18-Nov-2016 19:27:46 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/yikaicao/public_html/cs436/php/loginReceiver.php on line 14
+[30-Nov-2016 18:25:56 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/yikaicao/public_html/cs436/php/loginReceiver.php on line 14
+[30-Nov-2016 18:28:04 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/yikaicao/public_html/cs436/php/loginReceiver.php on line 15
+[30-Nov-2016 18:28:14 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/yikaicao/public_html/cs436/php/loginReceiver.php on line 15
+[30-Nov-2016 18:30:58 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/statusInsert.php on line 35
+[30-Nov-2016 18:32:12 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:14 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:14 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:14 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:14 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:16 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:16 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:16 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:17 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:17 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:17 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:18 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:19 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:19 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:19 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:20 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:21 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:21 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:32:21 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:33:49 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:33:49 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:33:49 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:33:50 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:33:50 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:33:50 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:34:00 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/yikaicao/public_html/cs436/php/loginReceiver.php on line 15
+[30-Nov-2016 18:35:04 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:35:39 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 38
+[30-Nov-2016 18:35:44 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 38
+[30-Nov-2016 18:37:15 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 38
+[30-Nov-2016 18:40:47 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 38
+[30-Nov-2016 18:41:28 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 38
+[30-Nov-2016 18:43:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:44:43 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/yikaicao/public_html/cs436/php/loginReceiver.php on line 15
+[30-Nov-2016 18:45:15 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/yikaicao/public_html/cs436/php/loginReceiver.php on line 15
+[30-Nov-2016 18:45:23 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:46:31 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 37
+[30-Nov-2016 18:48:27 UTC] PHP Parse error:  syntax error, unexpected 'normal_inesrt' (T_STRING), expecting ',' or ';' in /home/yikaicao/public_html/cs436/php/insert.php on line 287
+[30-Nov-2016 18:50:39 UTC] PHP Parse error:  syntax error, unexpected 'normal_inesrt' (T_STRING), expecting ',' or ';' in /home/yikaicao/public_html/cs436/php/insert.php on line 287
+[30-Nov-2016 18:51:27 UTC] PHP Parse error:  syntax error, unexpected 'normal_inesrt' (T_STRING), expecting ',' or ';' in /home/yikaicao/public_html/cs436/php/insert.php on line 287
+[30-Nov-2016 18:54:17 UTC] PHP Parse error:  syntax error, unexpected 'normal_inesrt' (T_STRING), expecting ',' or ';' in /home/yikaicao/public_html/cs436/php/insert.php on line 287
+[30-Nov-2016 18:54:43 UTC] PHP Parse error:  syntax error, unexpected 'normal_inesrt' (T_STRING), expecting ',' or ';' in /home/yikaicao/public_html/cs436/php/insert.php on line 287
+[30-Nov-2016 18:57:16 UTC] PHP Parse error:  syntax error, unexpected 'normal_inesrt' (T_STRING), expecting ',' or ';' in /home/yikaicao/public_html/cs436/php/insert.php on line 287
+[30-Nov-2016 19:00:34 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 38
+[30-Nov-2016 19:01:05 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 38
+[30-Nov-2016 19:02:12 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 38
+[30-Nov-2016 19:03:57 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 38
+[30-Nov-2016 19:05:24 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 36
+[30-Nov-2016 19:05:24 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/yikaicao/public_html/cs436/php/insert.php on line 36
+[30-Nov-2016 19:07:21 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 35
+[30-Nov-2016 19:55:59 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/statusInsert.php on line 35
+[30-Nov-2016 19:59:03 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 35
+[30-Nov-2016 21:38:03 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/yikaicao/public_html/cs436/php/insert.php on line 35
+[30-Nov-2016 21:44:46 UTC] PHP Fatal error:  Class 'mysqlli' not found in /home/yikaicao/public_html/cs436/php/insert.php on line 35
+[30-Nov-2016 21:49:29 UTC] PHP Warning:  mysql_num_fields() expects parameter 1 to be resource, object given in /home/yikaicao/public_html/cs436/php/insert.php on line 54
+[30-Nov-2016 21:50:10 UTC] PHP Warning:  mysql_num_fields() expects parameter 1 to be resource, object given in /home/yikaicao/public_html/cs436/php/insert.php on line 55
+[30-Nov-2016 22:22:54 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 3
+[30-Nov-2016 22:22:54 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 17
+[30-Nov-2016 22:27:27 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 3
+[30-Nov-2016 22:27:27 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 17
+[30-Nov-2016 22:27:53 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 3
+[30-Nov-2016 22:27:53 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 17
+[30-Nov-2016 22:28:18 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 3
+[30-Nov-2016 22:28:18 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 17
+[30-Nov-2016 22:28:20 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 3
+[30-Nov-2016 22:28:20 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 17
+[30-Nov-2016 22:29:28 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[30-Nov-2016 22:29:28 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[30-Nov-2016 22:41:59 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/yikaicao/public_html/cs436/php/insert.php on line 145
+[30-Nov-2016 22:41:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/yikaicao/public_html/cs436/php/insert.php on line 147
+[30-Nov-2016 22:43:00 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 99
+[30-Nov-2016 23:00:41 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[30-Nov-2016 23:00:41 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[30-Nov-2016 23:01:17 UTC] PHP Notice:  Undefined variable: con in /home/yikaicao/public_html/cs436/php/insert.php on line 145
+[30-Nov-2016 23:01:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/yikaicao/public_html/cs436/php/insert.php on line 145
+[30-Nov-2016 23:01:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/yikaicao/public_html/cs436/php/insert.php on line 147
+[30-Nov-2016 23:02:00 UTC] PHP Notice:  Undefined variable: con in /home/yikaicao/public_html/cs436/php/insert.php on line 145
+[30-Nov-2016 23:02:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/yikaicao/public_html/cs436/php/insert.php on line 145
+[30-Nov-2016 23:02:00 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/yikaicao/public_html/cs436/php/insert.php on line 147
+[30-Nov-2016 23:02:03 UTC] PHP Notice:  Undefined variable: con in /home/yikaicao/public_html/cs436/php/insert.php on line 145
+[30-Nov-2016 23:02:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/yikaicao/public_html/cs436/php/insert.php on line 145
+[30-Nov-2016 23:02:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/yikaicao/public_html/cs436/php/insert.php on line 147
+[30-Nov-2016 23:10:40 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/yikaicao/public_html/cs436/php/insert.php on line 102
+[30-Nov-2016 23:12:23 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/yikaicao/public_html/cs436/php/insert.php on line 99
+[30-Nov-2016 23:56:01 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[30-Nov-2016 23:56:01 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[30-Nov-2016 23:56:01 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/yikaicao/public_html/cs436/php/insert.php on line 40
+[30-Nov-2016 23:56:01 UTC] PHP Notice:  Undefined variable: result in /home/yikaicao/public_html/cs436/php/insert.php on line 41
+[30-Nov-2016 23:56:01 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 42
+[30-Nov-2016 23:56:26 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[30-Nov-2016 23:56:26 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[30-Nov-2016 23:56:26 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/yikaicao/public_html/cs436/php/insert.php on line 40
+[30-Nov-2016 23:56:26 UTC] PHP Notice:  Undefined variable: result in /home/yikaicao/public_html/cs436/php/insert.php on line 41
+[30-Nov-2016 23:56:26 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 42
+[30-Nov-2016 23:56:30 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[30-Nov-2016 23:56:30 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[30-Nov-2016 23:56:30 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/yikaicao/public_html/cs436/php/insert.php on line 40
+[30-Nov-2016 23:56:30 UTC] PHP Notice:  Undefined variable: result in /home/yikaicao/public_html/cs436/php/insert.php on line 41
+[30-Nov-2016 23:56:30 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 42
+[30-Nov-2016 23:57:48 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[30-Nov-2016 23:57:48 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[30-Nov-2016 23:57:48 UTC] PHP Notice:  Undefined variable: result in /home/yikaicao/public_html/cs436/php/insert.php on line 41
+[30-Nov-2016 23:57:48 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 42
+[30-Nov-2016 23:58:10 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[30-Nov-2016 23:58:10 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[30-Nov-2016 23:58:10 UTC] PHP Notice:  Undefined variable: result in /home/yikaicao/public_html/cs436/php/insert.php on line 41
+[30-Nov-2016 23:58:10 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 42
+[30-Nov-2016 23:58:28 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[30-Nov-2016 23:58:28 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[30-Nov-2016 23:58:45 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[30-Nov-2016 23:58:45 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[30-Nov-2016 23:59:09 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[30-Nov-2016 23:59:09 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[01-Dec-2016 00:02:45 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[01-Dec-2016 00:02:45 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[01-Dec-2016 00:15:19 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[01-Dec-2016 00:15:19 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[01-Dec-2016 00:21:41 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[01-Dec-2016 00:21:41 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[01-Dec-2016 00:23:39 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[01-Dec-2016 00:23:39 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[01-Dec-2016 00:57:08 UTC] PHP Parse error:  syntax error, unexpected 'double' (T_STRING) in /home/yikaicao/public_html/cs436/php/insert.php on line 41
+[01-Dec-2016 00:57:35 UTC] PHP Parse error:  syntax error, unexpected 'double' (T_STRING) in /home/yikaicao/public_html/cs436/php/insert.php on line 41
+[01-Dec-2016 02:18:11 UTC] PHP Notice:  Undefined index: dataType in /home/yikaicao/public_html/cs436/php/insert.php on line 118
+[01-Dec-2016 02:19:52 UTC] PHP Notice:  Undefined index: dataType in /home/yikaicao/public_html/cs436/php/insert.php on line 119
+[01-Dec-2016 02:20:45 UTC] PHP Notice:  Undefined index: dataType in /home/yikaicao/public_html/cs436/php/insert.php on line 122
+[01-Dec-2016 02:21:04 UTC] PHP Notice:  Undefined index: $dataType in /home/yikaicao/public_html/cs436/php/insert.php on line 122
+[01-Dec-2016 02:49:54 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:49:54 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:49:54 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:49:54 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:49:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'create_first' cannot be null' in /home/yikaicao/public_html/cs436/php/alarmModel.php:85
+Stack trace:
+#0 /home/yikaicao/public_html/cs436/php/alarmModel.php(85): PDOStatement->execute()
+#1 /home/yikaicao/public_html/cs436/php/alarmReciever.php(19): AlarmModel->addAlarm(NULL, NULL, NULL, NULL, 'LunarGreenhouse', 'RECORD', 'IsNotBetween', '2', '3', '520-780-9418', 'Verizon')
+#2 {main}
+  thrown in /home/yikaicao/public_html/cs436/php/alarmModel.php on line 85
+[01-Dec-2016 02:51:09 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:51:09 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:51:09 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:51:09 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:51:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'create_first' cannot be null' in /home/yikaicao/public_html/cs436/php/alarmModel.php:85
+Stack trace:
+#0 /home/yikaicao/public_html/cs436/php/alarmModel.php(85): PDOStatement->execute()
+#1 /home/yikaicao/public_html/cs436/php/alarmReciever.php(19): AlarmModel->addAlarm(NULL, NULL, NULL, NULL, 'LunarGreenhouse', 'RECORD', 'IsNotBetween', '1', '2', '520-780-9418', 'Verizon')
+#2 {main}
+  thrown in /home/yikaicao/public_html/cs436/php/alarmModel.php on line 85
+[01-Dec-2016 02:56:39 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:56:39 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:56:39 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:56:39 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:56:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'create_first' cannot be null' in /home/yikaicao/public_html/cs436/php/alarmModel.php:85
+Stack trace:
+#0 /home/yikaicao/public_html/cs436/php/alarmModel.php(85): PDOStatement->execute()
+#1 /home/yikaicao/public_html/cs436/php/alarmReciever.php(19): AlarmModel->addAlarm(NULL, NULL, NULL, NULL, 'LunarGreenhouse', 'RECORD', 'IsNotBetween', '1', '3', '520-780-9418', 'Verizon')
+#2 {main}
+  thrown in /home/yikaicao/public_html/cs436/php/alarmModel.php on line 85
+[01-Dec-2016 02:57:39 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:57:39 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:57:39 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:57:39 UTC] PHP Notice:  Undefined variable: _SESSION in /home/yikaicao/public_html/cs436/php/alarmReciever.php on line 19
+[01-Dec-2016 02:57:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'create_first' cannot be null' in /home/yikaicao/public_html/cs436/php/alarmModel.php:85
+Stack trace:
+#0 /home/yikaicao/public_html/cs436/php/alarmModel.php(85): PDOStatement->execute()
+#1 /home/yikaicao/public_html/cs436/php/alarmReciever.php(19): AlarmModel->addAlarm(NULL, NULL, NULL, NULL, 'LunarGreenhouse', 'RECORD', 'IsNotBetween', '1', '2', '520-780-9418', 'Verizon')
+#2 {main}
+  thrown in /home/yikaicao/public_html/cs436/php/alarmModel.php on line 85
+[01-Dec-2016 18:42:25 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/yikaicao/public_html/cs436/php/loginReceiver.php on line 15
+[01-Dec-2016 20:09:22 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/yikaicao/public_html/cs436/php/loginReceiver.php on line 15
+[01-Dec-2016 22:21:55 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[01-Dec-2016 22:21:55 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[01-Dec-2016 22:21:55 UTC] PHP Notice:  Undefined variable: result in /home/yikaicao/public_html/cs436/php/insert.php on line 49
+[01-Dec-2016 22:21:55 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home/yikaicao/public_html/cs436/php/insert.php on line 49
+[01-Dec-2016 22:22:35 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[01-Dec-2016 22:22:35 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[01-Dec-2016 22:22:35 UTC] PHP Notice:  Undefined variable: result in /home/yikaicao/public_html/cs436/php/insert.php on line 49
+[01-Dec-2016 22:22:35 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home/yikaicao/public_html/cs436/php/insert.php on line 49
+[01-Dec-2016 22:22:44 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[01-Dec-2016 22:22:44 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[01-Dec-2016 22:22:44 UTC] PHP Notice:  Undefined variable: result in /home/yikaicao/public_html/cs436/php/insert.php on line 49
+[01-Dec-2016 22:22:44 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home/yikaicao/public_html/cs436/php/insert.php on line 49
+[01-Dec-2016 22:23:18 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[01-Dec-2016 22:23:18 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[01-Dec-2016 22:23:35 UTC] PHP Notice:  Undefined index: header in /home/yikaicao/public_html/cs436/php/insert.php on line 2
+[01-Dec-2016 22:23:35 UTC] PHP Notice:  Undefined index: string in /home/yikaicao/public_html/cs436/php/insert.php on line 16
+[01-Dec-2016 22:30:45 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 83
+[01-Dec-2016 22:31:09 UTC] PHP Notice:  Array to string conversion in /home/yikaicao/public_html/cs436/php/insert.php on line 81
+[01-Dec-2016 22:31:09 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 83
+[01-Dec-2016 22:32:31 UTC] PHP Notice:  Undefined variable: nweColumn in /home/yikaicao/public_html/cs436/php/insert.php on line 82
+[01-Dec-2016 22:32:31 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 85
+[01-Dec-2016 22:34:07 UTC] PHP Notice:  Undefined variable: nweColumn in /home/yikaicao/public_html/cs436/php/insert.php on line 82
+[01-Dec-2016 22:34:07 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 87
+[01-Dec-2016 22:34:37 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 87
+[01-Dec-2016 22:36:34 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 87
+[01-Dec-2016 22:38:07 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 87
+[01-Dec-2016 22:39:55 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 86
+[01-Dec-2016 22:41:33 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 86
+[01-Dec-2016 22:41:53 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 86
+[01-Dec-2016 22:42:42 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 86
+[01-Dec-2016 22:45:05 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/yikaicao/public_html/cs436/php/insert.php on line 86
+[01-Dec-2016 22:46:50 UTC] PHP Parse error:  syntax error, unexpected '" double (16,3) default '0.000' (T_CONSTANT_ENCAPSED_STRING) in /home/yikaicao/public_html/cs436/php/insert.php on line 83
+[01-Dec-2016 22:48:48 UTC] PHP Parse error:  syntax error, unexpected '" double (16,3) default '0.000' (T_CONSTANT_ENCAPSED_STRING) in /home/yikaicao/public_html/cs436/php/insert.php on line 83
+[01-Dec-2016 22:52:51 UTC] PHP Parse error:  syntax error, unexpected '" double (16,3) default '0.000' (T_CONSTANT_ENCAPSED_STRING) in /home/yikaicao/public_html/cs436/php/insert.php on line 84
+[01-Dec-2016 22:53:27 UTC] PHP Parse error:  syntax error, unexpected '" double (16,3) default '0.000' (T_CONSTANT_ENCAPSED_STRING) in /home/yikaicao/public_html/cs436/php/insert.php on line 84
+[01-Dec-2016 22:54:37 UTC] PHP Parse error:  syntax error, unexpected '" double (16,3) default '0.000' (T_CONSTANT_ENCAPSED_STRING) in /home/yikaicao/public_html/cs436/php/insert.php on line 84

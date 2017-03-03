@@ -1,0 +1,38 @@
+.container {
+	width: 100%;
+	overflow: hidden;
+}
+.alarms_div {
+	width: 65%;
+	min-width: 300px;
+	float: left;
+	margin-right: 3%;
+	margin-bottom: 3%;
+    border: lightgray;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 2%;
+}
+.create_alarm_div {
+	width: 30%;
+	min-width: 300px;
+	display: inline-block;
+    border: lightgray;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 2%;
+}
+.alarm_list {
+	list-style: none;
+	padding-left: 3%;
+}
+.alarm_list li {
+	border-style: dotted;
+	border-width: 0 0 1px 0;
+    padding: 3% 0;	
+}
+.alarm_list img {
+	margin-right: 1%;
+}

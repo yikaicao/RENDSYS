@@ -1,0 +1,9 @@
+.centerView {
+    width: 33%;
+    min-width: 300px;
+    margin: auto;
+    text-align: left;
+}
+.body {
+	background-image: url("../img/lunar.jpg");
+}
